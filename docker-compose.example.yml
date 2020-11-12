@@ -18,7 +18,7 @@ services:
     restart: always
 
   panel:
-    image: quay.io/pterodactyl/panel:latest
+    image: quay.io/pterodactyl/vagrant-panel:latest
     restart: always
     ports:
       - "80:80"
