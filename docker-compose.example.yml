@@ -18,7 +18,7 @@ services:
     restart: always
 
   panel:
-    image: quay.io/pterodactyl/panel:latest
+    image: quay.io/parkervcp/pterodactyl:release_v1.1.1
     restart: always
     ports:
       - "80:80"
